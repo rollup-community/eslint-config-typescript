@@ -51,5 +51,12 @@
     "url": "https://github.com/rollup-community/eslint-config-typescript/issues"
   },
   "homepage": "https://github.com/rollup-community/eslint-config-typescript",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ]
 }

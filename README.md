@@ -8,20 +8,30 @@ ESLint Shareable Config for TypeScript
 
 ## Installation
 
-Install `@rollupjs/eslint-config-typescript`.
+npm:
 
 ```sh
 npm i -D @rollupjs/eslint-config-typescript
+```
+
+Yarn:
+
+```sh
+yarn add -D @rollupjs/eslint-config-typescript
 ```
 
 ## Usage
 
 Add `@rollupjs/eslint-config-typescript` to `extends` of your ESLint config.
 
-```json
-{
-  "extends": [
-    "@rollupjs/eslint-config-typescript"
-  ]
+```js
+module.exports = {
+  extends: [
+    '@rollupjs/eslint-config-typescript'
+    // add other rulesets here if needed
+  ],
+  rules: {
+    // override/add rules settings here if needed
+  }
 }
 ```

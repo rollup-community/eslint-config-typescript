@@ -6,8 +6,6 @@ const unicornRules = {
   'unicorn/prefer-module': 'off',
   'unicorn/prefer-query-selector': 'off',
   'unicorn/prefer-spread': 'off',
-  // TODO [engine:node@>=18]: Enable this when the minimum supported Node.js version becomes v18 or later.
-  'unicorn/prefer-top-level-await': 'off',
   'unicorn/prevent-abbreviations': 'off',
   'unicorn/switch-case-braces': ['error', 'avoid']
 }
